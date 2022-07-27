@@ -1,6 +1,7 @@
 import React, {useState} from "react"
-import "./navigation.scss"
 import { Button } from "@material-ui/core"
+import logo from "../../images/Mobile/logo.svg"
+import "./navigation.scss"
 
 const Navigation = () =>{
     const [showNav, setShowNav] = useState(false)
@@ -22,7 +23,7 @@ const Navigation = () =>{
                         <li className="nav-item"> CREATE ACCOUNT</li>
             </div>
             <div className="logo">
-                make
+                <img src={logo} alt="" />
             </div>
         </div>
 
