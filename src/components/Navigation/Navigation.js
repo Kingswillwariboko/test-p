@@ -42,7 +42,7 @@ const Navigation = () =>{
             <Button className="landing__page-btn">
                 join for free
             </Button>
-            <Button>
+            <Button  className="landing__page-btn1">
                 watch for free
             </Button>
         </div>
