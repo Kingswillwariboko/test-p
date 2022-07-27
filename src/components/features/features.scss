@@ -66,4 +66,110 @@
         }
         
     }
+
+    &__mainone{
+        text-align: center;
+        Button{
+            border-radius:80px;
+            border: 1px solid #F77E23;
+            color: #F77E23;
+        }
+
+        &-one{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            img{
+                margin-top: 2rem;
+                margin-left: 3rem;
+            }
+        }
+        &-two{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            img{
+                margin-top: 2rem;
+                margin-left: 4rem;
+            }
+        }
+    }
+    &__maintwo{
+        margin-top: 2rem;
+        text-align: center;
+        h3{
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0.2em;
+            color: #525596;
+        }
+        h6{
+            margin-top: 1rem;
+            text-align: left;
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 160%;
+            /* or 35px */
+            color: #2F327D;
+
+        }
+
+        p{
+            margin-top: .5rem;
+            text-align: left;
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            /* or 25px */
+
+
+            color: #696984;
+
+        }
+        Button{
+            margin-top: 1rem;
+            border-radius:80px;
+            border: 1px solid #F77E23;
+            color: #F77E23;
+        }
+    }
+    &__mainthree{
+        margin-top: 2rem;
+        text-align: center;
+        
+
+        h6{
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 180%;
+            /* or 25px */
+
+
+            color: #2F327D;
+
+        }
+
+        p{
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 180%;
+            /* or 22px */
+
+            text-align: center;
+
+            color: #696984;
+            margin-bottom: 2rem;
+        }
+    }
 }
