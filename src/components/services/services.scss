@@ -40,7 +40,7 @@
     }
     .main{
         img{
-            width: 50%;
+            width: 40%;
         }
     }
     &__one{
@@ -69,31 +69,75 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 180%;
-            /* or 22px */
-
             text-align: center;
             letter-spacing: 0.02em;
-
             color: #696984;
-
         }
 
         .contention{
             height: 274.46px;
-            background-image: url(../../images/icons/Rectangle.svg);
             text-align: center;
             display: flex;
             justify-content: center;
-            margin-top: 1rem;
-            padding-top: 5rem;
+            margin-top: rem;
+            padding-top: 0rem;
             color: #ffff;
+            position: relative;
 
+            p{
+                color: #ffff;
+                text-transform: uppercase;
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%);
+            }
             Button{
                 color: #ffff;
-                margin-top: .5rem;
+                margin-top: rem;
                 border: 1px solid #ffff;
                 border-radius: 25px;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%);
             }
+        }
+    }
+    &__two{
+        margin-top: 2rem;
+
+        h4{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 160%;
+            /* or 22px */
+
+
+            color: #2F327D;
+        }
+
+        p{
+            margin-top: 1rem;
+            text-align: left;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 180%;
+            /* or 22px */
+
+            letter-spacing: 0.02em;
+
+            color: #696984;
+        }
+
+        &-btn{
+            text-align: left !important;
+            border: 2px solid green;
+            
         }
     }
 }

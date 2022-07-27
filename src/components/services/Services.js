@@ -2,6 +2,8 @@ import React from "react"
 
 import google from "../../images/Mobile/Group 79.svg"
 import google1 from "../../images/Mobile/Frame 1791.svg"
+import classimg from "../../images/icons/Rectangle.svg"
+import img from "../../images/Mobile/Group 17.svg"
 import { Button, Container } from "@material-ui/core"
 import { Card } from "@material-ui/core"
 import "./services.scss"
@@ -42,13 +44,30 @@ const Services = () => {
                     </p>
 
                     <Container className="contention">
-                        <div>
+                        <img src={classimg} alt="" />
+                        <div className="contention-one">
                             <p>For instrucstions</p>
                             <Button>
                                 start a class today
                             </Button>
                         </div>
                     </Container>
+               </Container>
+               <Container className="services__two">
+                   <h4>Everything you can do in a physical <br />
+                    classroom, you can do with Contentionary</h4>
+
+                    <p>
+                         Contentionary’s school management software helps traditional and
+                         online schools manage scheduling, attendance,
+                         payments and virtual classrooms all in one 
+                         secure cloud-based system.
+                    </p>
+
+                    <Button className="services__two-btn">
+                        learn more
+                    </Button>
+                    <img  src={img} alt=""/>
                </Container>
            </div>
        </div>
