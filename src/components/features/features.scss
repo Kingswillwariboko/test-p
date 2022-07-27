@@ -17,7 +17,7 @@
             }
         }
         &-one{
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
             text-align: left;
             margin-top: 1.5rem;
@@ -59,7 +59,10 @@
         }
 
         &-two{
-            width: 100%;
+            margin-top: 1rem;
+            img{
+                width: 100%;
+            }
         }
         
     }

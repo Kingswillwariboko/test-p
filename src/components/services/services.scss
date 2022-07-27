@@ -142,8 +142,11 @@
             border: 2px solid green;
             
         }
-        img{
-            width: 100%;
+        &-img{
+            border: 2px solid green;
+            img{
+                width: 100%;
+            }
         }
     }
 }

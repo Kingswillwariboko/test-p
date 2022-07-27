@@ -2,7 +2,7 @@ import React from "react"
 
 import google from "../../images/Mobile/Group 79.svg"
 import google1 from "../../images/Mobile/Frame 1791.svg"
-import classimg from "../../images/icons/Rectangle.svg"
+import img1 from "../../images/file/Rectangle.svg"
 import img from "../../images/Mobile/Group 17.svg"
 import { Button, Container } from "@material-ui/core"
 import { Card } from "@material-ui/core"
@@ -44,7 +44,7 @@ const Services = () => {
                     </p>
 
                     <Container className="contention">
-                        <img src={classimg} alt="" />
+                        <img src={img1} alt="" />
                         <div className="contention-one">
                             <p>For instrucstions</p>
                             <Button>
@@ -67,7 +67,7 @@ const Services = () => {
                     <Button className="services__two-btn">
                         learn more
                     </Button>
-                    <img  src={img} alt=""/>
+                    <img src={img} alt=""/>
                </Container>
            </div>
        </div>
