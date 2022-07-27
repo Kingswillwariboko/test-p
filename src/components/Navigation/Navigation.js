@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import { Button } from "@material-ui/core"
 import logo from "../../images/Mobile/logo.svg"
+import menu from "../../images/Mobile/menu-line.svg"
 import "./navigation.scss"
 
 const Navigation = () =>{
@@ -10,7 +11,7 @@ const Navigation = () =>{
         <div className="nav">
             <div className="nav-ham">
                 <div className="hamburger" onClick={()=> setShowNav(!showNav)}>
-                    {showNav ? 'open' : 'close'}
+                    {showNav ? 'close' : <img src={menu} alt=""/>}
                 </div>
             </div>
             <div className= {showNav ? "active" : "nav-menu"}>

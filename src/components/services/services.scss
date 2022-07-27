@@ -1,0 +1,32 @@
+.container{
+    margin-top: 2rem;
+    text-align: center;
+
+    h3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+
+        color: #2F327D;
+
+    }
+
+    p{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+
+        text-align: center;
+
+        color: #696984
+    }
+}
