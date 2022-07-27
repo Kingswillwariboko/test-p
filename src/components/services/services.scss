@@ -31,11 +31,9 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 180%;
-            /* or 36px */
-    
             text-align: center;
-    
-            color: #696984
+            color: #696984;
+            margin-bottom: 2rem;
         }
     }
     .main{
@@ -83,6 +81,10 @@
             padding-top: 0rem;
             color: #ffff;
             position: relative;
+            
+            img{
+                width: 130%;
+            }
 
             p{
                 color: #ffff;
@@ -93,6 +95,7 @@
                 transform: translate(-50%);
             }
             Button{
+                width: 70%;
                 color: #ffff;
                 margin-top: rem;
                 border: 1px solid #ffff;
@@ -138,6 +141,9 @@
             text-align: left !important;
             border: 2px solid green;
             
+        }
+        img{
+            width: 100%;
         }
     }
 }
