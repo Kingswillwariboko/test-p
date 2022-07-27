@@ -81,7 +81,8 @@
             text-align: center;
             img{
                 margin-top: 2rem;
-                margin-left: 3rem;
+                width: 30%;
+                margin-left: 2rem;
             }
         }
         &-two{
@@ -90,7 +91,8 @@
             text-align: center;
             img{
                 margin-top: 2rem;
-                margin-left: 4rem;
+                width: 30%;
+                margin-left: 2rem;
             }
         }
     }
@@ -170,6 +172,9 @@
 
             color: #696984;
             margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
         }
     }
 }
