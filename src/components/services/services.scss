@@ -1,13 +1,18 @@
 .container{
     margin-top: 2rem;
     text-align: center;
+    width: 100%;
+
+    img{
+        width: 90%;
+    }
 
     h3{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
-        line-height: 45px;
+        line-height: 40px;
         text-align: center;
 
         color: #2F327D;
@@ -21,7 +26,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 180%;
         /* or 36px */
 
