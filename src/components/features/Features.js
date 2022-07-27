@@ -9,29 +9,31 @@ import './features.scss'
 const  Features = ()=> {
     return(
         <div className="features">
-            <Container>
-                <h4>Our services</h4>
+            <Container className="features-main">
+                <h4>Our <span>services</span></h4>
                 <p>This very extraordinary feature, can make learning <br />
                  activities more efficient</p>
 
-                 <div>
-                     <h3>A user interface designed for the <br /> classroom</h3>
-                     <div>
+                 <div className="features-main-one">
+                     <h3>A <span> user interface</span> designed for the <br /> classroom</h3>
+                     <div className="list">
                        <img src={img1} alt="" />
-                       <p>Teachers don’t get lost in the grid view and
+                       <p>Teachers don’t get lost in the grid view and<br />
                             have a dedicated Podium spac</p>
                      </div>
-                     <div>
+                     <div className="list">
                        <img src={img1} alt="" />
-                       <p>TA’s and presenters can be moved to the front of the class.
+                       <p>TA’s and presenters can be moved to <br /> the front of the class.
                         </p>
                      </div>
-                     <div>
+                     <div className="list">
                        <img src={img1} alt="" />
-                       <p>TA’s and presenters can be moved to the front of the class.
+                       <p>TA’s and presenters can be moved to <br />the front of the class.
                         </p>
                      </div>
-                     <img src={img} alt="" />
+                     <div className="features-main-two">
+                       <img src={img} alt="" />
+                     </div>
                  </div>
             </Container>
         </div>

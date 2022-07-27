@@ -1,0 +1,66 @@
+.features{
+    padding: 2rem;
+    .features-main{
+        text-align: center;
+        h4{
+            font-family: 'Poppins';
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 180%;
+            /* or 25px */
+            color: #2F327D;
+
+            span{
+                color: #F77E23;
+            }
+        }
+        &-one{
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+            margin-top: 1.5rem;
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 100%;
+                /* or 32px */
+
+
+                color: #2F327D;
+
+                span{
+                    color: #F77E23;
+                }
+
+            }
+
+            .list{
+                display: flex;
+                margin-top: 1rem;
+                p{
+                    margin-left: 2rem;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 180%;
+                    /* or 22px */
+
+                    letter-spacing: 0.02em;
+
+                    color: #696984;
+
+                }
+            }
+        }
+
+        &-two{
+            width: 100%;
+        }
+        
+    }
+}
